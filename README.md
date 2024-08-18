@@ -3,12 +3,6 @@
 Repositório destinado ao desenvolvimento, estudo e práticas de autoria web.
 
 
-## Lista de tarefas
-- 19/08/2024;
-- Biblioteca completa com funcionalidades pré-formatadas;
-- Totalmente *mobile-first*;
-- Inclui os principais *Breakpoints* (≥1400px, ≥1200px, ≥992px, ≥768px, ≥576px,<576px)
-
 ## Tarefas (19/08/2024)
 
 __Preparando seu ambiente__
