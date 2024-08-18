@@ -22,20 +22,30 @@ __Realizando a entrega__
 
 ## Tarefa 1 (19/08/2024) - Background 1 (Cores Hexadecimais)
 
-__Iniciando os trabalhos__
+> Realize a montagem do exercício de Background 1 com as instruções abaixo;
 
-- Realize a montagem do exercício de Background 1;
-
-    - [ ] Crie uma pasta com a seguinte nomenclatura: `background`
-    - [ ] Agora acesse a pasta e crie um novo arquivo HTML com a nomenclatura `backround1.html` e um arquivo `background1.css`
+    - [ ] Acesse a pasta com a seguinte nomenclatura: `background`
+    - [ ] Agora dentro da pasta crie um novo arquivo HTML com a nomenclatura `backround1.html` e um arquivo `background1.css`
     - [ ] Realize a montagem do arquivo conforme descrito abaixo:
         1. Crie um arquivo HTML com uma estrutura básica (não esqueça de adicionar um título);
         2. Adicione três ```<section>```s com diferentes classes (.box1, .box2, .box3);
-        3. Integre o HTML ao CSS;
-        4. Use CSS para aplicar diferentes cores de fundo a cada ```<section>``` utilizando [apenas cores Hexadecimais](https://materialui.co/colors);
+        3. Integre o HTML ao CSS usando `<link ...`;
+        4. Use CSS para aplicar diferentes cores de fundo a cada ```<section>``` utilizando [apenas cores Hexadecimais](https://materialui.co/colors) e criando as três classes necessárias (.box1, ...);
         5. Altere as alturas das sections;
         6. Faça um envio direto na sua branch;
         7. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 1";
 
 
-## Tarefa 2 (19/08/2024)
+## Tarefa 2 (19/08/2024) - Background 2 (Imagens)
+
+> Realize a montagem do exercício de Background 2 com as instruções abaixo;
+
+    - [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `backround2.html` e um arquivo `background2.css`
+    - [ ] Realize a montagem do arquivo conforme descrito abaixo:
+        1. Crie um arquivo HTML com uma estrutura básica (não esqueça de adicionar um título que deve ser o mesmo título da atividade);
+        2. Adicione um <section> com a classe ```.background-image```;
+        3. Integre o HTML ao CSS;
+        4. No arquivo CSS _backgound2.css_ aplique uma imagem como background usando a classe criada no HTML e a propriedade de background;
+        5. Altere as altura da ```<section>``` para 400px;
+        6. Faça um envio direto na sua branch;
+        7. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 2";
