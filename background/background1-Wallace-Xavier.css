@@ -1,0 +1,15 @@
+section{
+    height: 200px;
+}
+
+.box1{
+    background-color: cadetblue;
+}
+
+.box2{
+    background-color: lightcoral;
+}
+
+.box3{
+    background-color: darkslateblue;
+}
