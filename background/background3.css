@@ -1,0 +1,11 @@
+section{
+    height: 600px;
+}
+
+.combined-background{
+    background-image: url(img/closeup-shot-cute-macaw-parrot-with-mesmerizing-feathers.jpg);
+    background-color: #03A9F4;
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
