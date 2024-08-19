@@ -1,0 +1,13 @@
+section {
+    height: 600px;
+}
+.combined-background {
+    background-image: url(img/water-lily-8175845_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%
+
+}
+body {
+    background-color: rgba(192, 97, 204, 0.952);
+}
