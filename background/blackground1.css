@@ -1,0 +1,15 @@
+section{
+    height: 200px;
+}
+
+.box1{
+    background-color: rgb(255, 0, 0);
+}
+
+.Box2{
+    background-color: #0288D1;
+}
+
+.Box3{
+    background-color: #43A047;
+}
