@@ -1,8 +1,7 @@
 .background-image{
-    background-image: url("/aw-2024/background/Img/Imagem-ave.jpg");
-    height: 400px;
-    width: 100%;
-    background-position: left;
-    object-fit: cover; 
+    background-image: url("Img/Imagem-ave.jpg");
     background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    object-fit: cover;
 }

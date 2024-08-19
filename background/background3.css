@@ -1,0 +1,10 @@
+.combined-background{
+    background-image: url(Img/Imagem-sapo.jpg);
+    background-color: #205530;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.combined-background img{
+    width: 25%;
+}
