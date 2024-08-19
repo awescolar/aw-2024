@@ -2,14 +2,6 @@ section{
     height: 200px;
 }
 
-.box1{
-    background-color: cadetblue;
-}
-
-.box2{
-    background-color: lightcoral;
-}
-
-.box3{
-    background-color: darkslateblue;
-}
+.box1{background-color: #1976D2;}
+.box2{background-color: #1565C0;}
+.box3{background-color: #0D47A1;}g
