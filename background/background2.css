@@ -1,0 +1,8 @@
+.background-image {
+    height: 400px;
+    background: url(img/foto-arara.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: green;
+    color: hrey;
+}
