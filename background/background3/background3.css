@@ -1,0 +1,9 @@
+.combined-background {
+    height: 600px;
+    background: url(img/onça.jpg) no-repeat;
+    color: white;
+    background-position: center;
+    background-size: 25vw;
+    
+    background-color: rgb(105, 108, 112);
+}
