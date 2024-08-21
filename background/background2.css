@@ -1,0 +1,7 @@
+.background-image {
+    background-image: url(./img/jujutsu-kaisen_background.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
