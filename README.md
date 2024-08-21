@@ -30,7 +30,7 @@ Hoje iremos trabalhar com atividades de Background. Após a explicação, proced
 Realize a montagem do exercício de Background 1 com as instruções abaixo;
 
 - [ ] #FF0000 Acesse a pasta com a seguinte nomenclatura: ```background```
-- [ ] Agora dentro da pasta crie um novo arquivo HTML com a nomenclatura `backround1.html` e um arquivo `background1.css`
+- [ ] Agora dentro da pasta crie um novo arquivo HTML com a nomenclatura `background1.html` e um arquivo `background1.css`
 - [ ] Realize a montagem do arquivo conforme descrito abaixo:
     1. Crie um arquivo HTML com uma estrutura básica (não esqueça de adicionar um título);
     2. Adicione três ```<section>```s com diferentes classes (.box1, .box2, .box3);
