@@ -1,0 +1,8 @@
+.combined-background {
+    background-image: url(./img/jujutsu-kaisen_background.jpg);
+    background-color: #282828;
+    height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
