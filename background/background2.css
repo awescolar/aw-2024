@@ -1,0 +1,7 @@
+section.background-image{
+    background-image: url(img/sapos.jpg);
+    background-repeat: no-repeat no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+}
