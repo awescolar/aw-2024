@@ -1,0 +1,7 @@
+section.combined-background{
+    background: #29B6F6 url(img/ai-anime.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
