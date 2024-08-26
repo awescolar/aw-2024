@@ -1,0 +1,10 @@
+section {
+    height: 400px;
+}
+
+.background-image {
+    background-image: url(https://img.freepik.com/fotos-gratis/vista-frontal-da-perereca-de-javan-nas-folhas-verdes_488145-2188.jpg?t=st=1724690973~exp=1724694573~hmac=343e8d0172b1c9da0590e0784cad84b232821f14fc0b0bc9c316875c03ef32f5&w=1060);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
