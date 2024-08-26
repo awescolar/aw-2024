@@ -1,0 +1,11 @@
+.combined-background {
+    background: url(img/foto-sapo.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: grey;
+    color: ghostwhite;
+    background-size: 25%;
+}
+section {
+    height: 950px;
+}
