@@ -1,0 +1,12 @@
+section {
+    height: 400px;
+ }
+    
+.background-image {
+    background-image: url(https://img.freepik.com/fotos-gratis/camaleao-de-perto-na-natureza_23-2151724838.jpg?t=st=1724670028~exp=1724673628~hmac=ccd784e9350cf316d2ab2451d9d6acd3c6257d66ee71bb94247cd653782b5a2e&w=740);
+   background-repeat: no-repeat;
+   background-position: 50%;
+   height: 600px;
+  background-size: contain;
+ 
+ }
