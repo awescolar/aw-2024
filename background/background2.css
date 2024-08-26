@@ -1,6 +1,6 @@
 section.background-image{
     height: 400px;
-    background-image: url("/background/img/passaro.jpg");
+    background-image: url("img/passaro.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
