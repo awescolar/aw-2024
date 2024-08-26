@@ -75,10 +75,10 @@ Realize a montagem da página em anexo na atividade do Google Sala de Aula.
 - [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `background-final.html` e um arquivo `background-final.css`
 - [ ] Realize a montagem do arquivo conforme descrito abaixo:
     1. Crie um arquivo HTML com uma estrutura básica;
-    2. Integre a font Sora, no Google Fonts;
+    2. Integre a font Sora, no Google Fonts (todas as fonts utilizadas são Sora);
     3. Baixe uma nova imagem e salve na pasta "/img" que você criou;
     4. Realize a montagem conforme se mostra na imagem;
-    5. Utilize o font-awesome para adicionar fonts de imagens;
+    5. Utilize o font-awesome para adicionar fonts de imagens (os icones abaixo serão utilizados via Font Awesome);
     6. ;
     7. Altere as altura da ```<section>``` para 600px;
     8. Posicione o background no centro;
