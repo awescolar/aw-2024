@@ -29,7 +29,7 @@ Hoje iremos trabalhar com atividades de Background. Após a explicação, proced
 ### Tarefa 2 - Background 2 (Imagens)
 Realize a montagem do exercício de Background 2 com as instruções abaixo;
 
-- [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `backround2.html` e um arquivo `background2.css`
+- [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `background2.html` e um arquivo `background2.css`
 - [ ] Realize a montagem do arquivo conforme descrito abaixo:
     1. Crie um arquivo HTML com uma estrutura básica (não esqueça de adicionar um título que deve ser o mesmo título da atividade);
     2. Adicione um <section> com a classe ```.background-image```;
