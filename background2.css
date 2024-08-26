@@ -1,0 +1,8 @@
+.background-image{
+    background-image: url("backround-img/photorealistic-view-beautiful-hummingbird-its-natural-habitat.jpg");
+    width: 1000px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
