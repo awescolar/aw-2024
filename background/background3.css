@@ -1,0 +1,10 @@
+section { height: 600px;}
+
+.combined-background  {
+        background-image: url(https://img.freepik.com/fotos-gratis/vista-fotorrealista-do-belo-beija-flor-em-seu-habitat-natural_23-2151474178.jpg?t=st=1724670956~exp=1724674556~hmac=10970721a10e83f0c0e8a0d62752283a7e17c2152ce089273ecdba7530d31f96&w=1380);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 1000px;
+      background-size: 25%;
+      background-color: rgb(29, 46, 29);
+     }
