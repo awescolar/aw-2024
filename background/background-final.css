@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora", sans-serif;
+}
+
+header{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    background-color: #10315c;
+}
+
+main{
+    background-color: #10315c;
+}
+
+main .container{}
+
+main .container .Designer{}
+
+main .container .Imagem_seta_amarela{}
+
+main .container h1{
+    text-align: center;
+}
+
+main .container p{
+    text-align: center;
+}
+
+main .container .Programador{}
+
+main .container .Imagem_seta_verde{}
+
+main .container .link{
+    text-align: center;
+}
+
+main .container .tomada{}
+
+main .container .tomada .plug{}
+
+footer{}
