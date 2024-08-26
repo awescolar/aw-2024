@@ -1,0 +1,11 @@
+section {
+    height: 600px;
+}
+
+.combined-background {
+    background-image: url(https://img.freepik.com/fotos-gratis/lagarto-verde-no-galho-lagarto-verde-tomando-banho-de-sol-no-galho_488145-422.jpg?t=st=1724690884~exp=1724694484~hmac=1db18cb21d8c7cd7786f402df64214e167742a715efc9974f3bc2255ef49aca3&w=1060);
+    background-color: rgb(39, 98, 39);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
