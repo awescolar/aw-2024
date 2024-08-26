@@ -1,0 +1,8 @@
+section.combined-background{
+    height: 600px;
+    background-image: url("img/jaguar.jpg");
+    background-position: center;
+    background-color: #1C1C1C;
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
