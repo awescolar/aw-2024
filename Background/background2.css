@@ -1,0 +1,13 @@
+.background-image {
+    background:  url(img/alisa\ meu\ pelo\ uwu.jpg) no-repeat;
+    background-size: contain; 
+    background-position: center;
+    text-align: center;
+}
+section{
+    height: 400px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}

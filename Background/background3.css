@@ -1,0 +1,7 @@
+.combined-background{
+    background: url(./img/vulcano.jpg) no-repeat;
+    background-size: contain; 
+    background-position: center;
+    background-color: red;
+
+}
