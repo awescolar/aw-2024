@@ -2,19 +2,19 @@
 
 body{
     font-family: "Sora", sans-serif;
+    background-color: #0F315C;
 }
 
 header{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 80px;
     padding-top: 24px;
-    background-color: #10315c;
+    margin-bottom: 20px;
 }
 
-main{
-    background-color: #10315c;
-}
+main{}
 
 main .container{}
 
@@ -23,19 +23,36 @@ main .container .Designer{}
 main .container .Imagem_seta_amarela{}
 
 main .container h1{
+    font-size: 36px;
+    color: #4CC8FF;
     text-align: center;
 }
 
 main .container p{
+    color: #ffffff;
     text-align: center;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 main .container .Programador{}
 
 main .container .Imagem_seta_verde{}
 
+main .container .link a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 main .container .link{
+    max-width: 130px;
+    margin: auto;
+    padding: 5px;
+    color: #ffffff;
+    border: 1px solid;
     text-align: center;
+    border-radius: 30px;
 }
 
 main .container .tomada{}
