@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    font-family: "Sora", sans-serif;
+}
+
+header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+
+}
+main {
+    width: auto;
+
+}
+main .container{
+    width: auto;
+
+}
+main .container .nome-figma{
+    width: auto;
+    
+}
+main .container h1{
+    width: auto;
+    
+}
+main .container .tomada{
+    width: auto;
+    
+}
+main .container .plug{
+    width: auto;
+    
+}
+/* TRABALHAR DEPOIS*/
+footer {
+    width: auto;
+
+}
