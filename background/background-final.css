@@ -14,13 +14,27 @@ header{
     margin-bottom: 20px;
 }
 
-main{}
+main .container .Designer p{
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    border: 2px solid #1f1f1f;
+    background-color: #FDB32F;
+    text-align: center;
+    width: 62px;
+    padding: 3px;
+    position: relative;
+    top: 48px;
+    left: 336px;
+}
 
-main .container{}
-
-main .container .Designer{}
-
-main .container .Imagem_seta_amarela{}
+main .container .Designer img{
+    width: 28px;
+    height: 34px;
+    position: relative;
+    top: 36px;
+    left: 400px;
+}
 
 main .container h1{
     font-size: 36px;
@@ -35,18 +49,36 @@ main .container p{
     font-weight: 300;
 }
 
-main .container .Programador{}
+main .container .Programador p{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    border: 2px solid #1f1f1f;
+    background-color: #19B100;
+    text-align: center;
+    width: 86px;
+    padding: 3px;
+    position: relative;
+    bottom: 20px;
+    left: 938px;
+}
 
-main .container .Imagem_seta_verde{}
+main .container .Programador img{
+    width: 28px;
+    height: 34px;
+    position: relative;
+    top: 0px;
+    left: 918px;
+}
 
 main .container .link a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 main .container .link{
-    max-width: 130px;
+    max-width: 120px;
     margin: auto;
     padding: 5px;
     color: #ffffff;
@@ -55,8 +87,21 @@ main .container .link{
     border-radius: 30px;
 }
 
-main .container .tomada{}
+main .tomada hr{
+    margin-top: 90px;
+    border: 2px solid #ffffff;
+}
 
-main .container .tomada .plug{}
+main .tomada .plug{
+    height: 40px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0F315C;
+    margin-top: -30px;
+    background-image: url(Img/vector.png), url(Img/vector-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left, center right;
+}
 
 footer{}
