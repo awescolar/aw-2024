@@ -1,0 +1,90 @@
+
+body {
+    background: #10315C;
+    color: #ffff;
+    font-family: "Sora";
+    margin: 0;
+}
+header {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+main .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+main .container h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #4BC7FC;
+    margin-bottom: 15px;
+}
+main .container p {
+    font-size: 11px;
+    text-align: center;
+    width: 500px;
+    margin-top: 0;
+}
+main .container .designer {
+    position: relative;
+    top: 20px;
+    left: -280px;
+}
+main .container .designer span{
+    position: relative;
+    top: -45px;
+    left: 15px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    background: #FCB32F;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+main .container .programador {
+    position: relative;
+    top: -110px;
+    left: 280px;
+}
+main .container .programador span{
+    position: relative;
+    top: 10px;
+    left: -10px;
+    font-size: 10px;
+    background: #18B201;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+main .container .designer p {
+    position: absolute;
+   
+}
+main .container a {
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 70px;
+    border: 1px solid #ffff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+main hr {
+    margin-top: 60px;
+    border: 2px solid #ffff;
+}
+main .plug {
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    background: #10315C no-repeat;
+    background-image: url(img/vector.png), url(img/vector-2.png);
+    background-position: center left, center right;
+}
+/* Deixar para depois */
+footer{}
+
