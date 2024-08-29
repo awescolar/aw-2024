@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: 'Sora';
+    background: #0f315c;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+header{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.plug{
+    background: no-repeat #0F315C;
+    background-image: url(img/vector.png), url(img/vector-2.png);
+    background-position: center left, center right;
+    height: 40px;
+    width: 160px;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container{
+    max-width: 600px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+}
+
+.container .des{
+    top: 20px;
+    left: -300px;
+    position: relative;
+}
+
+.container .des span{
+    color: black;
+    background: #F5B12C;
+    position: relative;
+    top: -40px;
+    left: 10px;
+    font-size: 10px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.container .pro{
+    top: -110px;
+    left: 280px;
+    position: relative;
+}
+.container .pro span{
+    top: 8px;
+    left: -10px;
+    font-size: 10px;
+    background: #19B303;
+    padding: 5px 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    width: 650px;
+    margin-top: 0;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 60px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+hr{
+    margin-top: 40px;
+    border: 3px solid #FFFFFF;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: #4DCBFE;
+    margin-bottom: 15px;
+}
