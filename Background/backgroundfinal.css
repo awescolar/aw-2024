@@ -1,0 +1,85 @@
+body{
+    background-color: #0F315C;
+    color: white;
+    font-family: 'sora';
+}
+header{
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+section .container{
+    max-width: 600px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+.container h1{
+    color: #4CC8FF;
+    font-size: 34px;
+    text-align: center;
+
+}
+.container p{
+    font-size: 13px;
+    text-align: center;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+.Designer{
+    position: relative;
+    left: -290px;
+    top: 30px;
+}
+.Designer span{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    background-color: #FDB32F;
+    color: black;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border: black 2px solid;
+}
+.Programador{
+    position: relative;
+    top: -110px;
+    left: 232px;
+
+}
+.Programador span{
+    position: relative;
+    top: 10px;
+    left: 130px;
+    background-color: #19B100;
+    color: black;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border: black 2px solid;
+}
+hr{
+    border: 2px solid white;
+    margin-top: 60px;
+}
+
+.plugin{
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    background: #0F315C no-repeat;
+    background-image: url(imagensfinal/vector.png), url(imagensfinal/vector-2.png);
+    background-position: center left, center right;
+}
