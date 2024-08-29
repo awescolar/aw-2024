@@ -1,0 +1,6 @@
+.combined-background{
+    background-image: url(img/back3.avif);
+    background-size: contain; 
+    background-position: center;
+    background-color:white;
+}
