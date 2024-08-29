@@ -1,0 +1,7 @@
+.combined-background{
+    background-image: url(natureza1.jpg);
+    height: 600px; 
+    background-size: contain;
+    background-position: center;
+   background-color: darkgoldenrod;  
+}
