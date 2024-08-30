@@ -84,3 +84,26 @@ Realize a montagem do exercício de Background 2 com as instruções abaixo;
     11. Faça um envio direto na sua branch;
     12. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 3";
     13. Acesse a tarefa no Classroom e __Marque como entregue__.
+     
+    
+
+### Atividade 4 - Trabaho de Background
+Realize a montagem da página em anexo na atividade do Google Sala de Aula.
+
+- [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `background-final.html` e um arquivo `background-final.css`
+- [ ] Realize a montagem do arquivo conforme descrito abaixo:
+    1. Crie um arquivo HTML com uma estrutura básica;
+    2. Integre a font Sora, no Google Fonts (todas as fonts utilizadas são Sora);
+    3. Baixe uma nova imagem e salve na pasta "/img" que você criou;
+    4. Realize a montagem conforme se mostra na imagem;
+    5. Utilize o font-awesome para adicionar fonts de imagens (os icones abaixo serão utilizados via Font Awesome);
+    6. ;
+    7. Altere as altura da ```<section>``` para 600px;
+    8. Posicione o background no centro;
+    9. Não permita que a imagem se repita;
+    10. O tamanho ad imagem deve ser 25% do valor da tela;
+
+    11. _Hora de enviar_: Verifique se ta tudo certo antes de tudo;
+    12. Faça um envio direto na sua branch;
+    13. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 3";
+    14. Acesse a tarefa no Classroom e __Marque como entregue__.
