@@ -1,0 +1,5 @@
+.background-imagem {
+    background-image: url(papagaio.jpg); 
+    height: 600px;
+    background-size: contain;
+}
