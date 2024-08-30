@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    background-color: #0F315C;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header img {
+    height: 50px;
+}
+
+header{
+    margin: 0 0 30px 74px;
+    padding: 4px;
+}
+
+main{
+    margin-top: 60px;
+    max-width: 1700px;
+}
+
+main section.container{
+    margin-bottom: 20px;
+    padding-bottom: 24px;
+}
+
+main section.container img.amarela{
+    height: 35px;
+    display: block; 
+    margin: 0 0 0 470px;
+}
+
+main section.container div.primeiro{
+    color: #000000;
+    border: 2px solid #000000;
+    display: inline;
+    padding: 3px 14px 3px 14px;
+    background-color: #FDB32F;
+    font-size: smaller;
+    margin: 0 0 30px 390px;
+}
+
+main section.container h1{
+    color: #4cc8ff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    font-size: 42px;
+}
+
+main section.container p{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 38px;
+    font-size: normal;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+main section.container a{
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: smaller;
+    margin-left: 705px;
+    font-weight: 600;
+}
+
+main section.container img.verde{
+    height: 35px;
+    margin-left: 978px;
+    display: block;
+}
+
+main section.container div.segundo{
+    color: #ffffff;
+    border: 2px solid #000000;
+    display: inline;
+    padding: 3px 14px 3px 14px;
+    background-color: #19b100;
+    font-size: smaller;
+    margin-left: 1000px;
+}
+
+main section.tomada{
+    margin-top: 80px;
+    height: 100px;
+}
+
+main section.tomada hr.white{
+    margin: 0;
+    border: 2px solid #ffffff;
+}
+
+main section.tomada div.plug{
+    height: 40px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F315C;
+    margin-top: -20px;
+    
+    background-image: url("img/vector.png"), url("img/vector-2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right  center ;
+}
+
+main section.final hr{
+    margin: 5px 0 0 0;
+    border: 1px solid #FDB32F;
+  }
