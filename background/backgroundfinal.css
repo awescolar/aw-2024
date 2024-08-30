@@ -1,0 +1,92 @@
+body {
+    background-color: #0F315C;
+}
+header {
+    padding-left: 15%;
+    padding-bottom: 60px;
+}
+.central {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 400px;
+}
+h1 {
+    color: #4CC8FF;
+    font-size: 30px;
+}
+p {
+    color: #ffffff;
+    font-size: 12px;
+}
+a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    border: solid 1px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.box1 {
+    text-align: start;
+    font-size: 10px;
+    border: solid 1px;
+    padding: 3px;
+    width: 40px;
+    background-color: #FDB32F;
+    position: relative;
+    top: 42px;
+    left: 400px;
+    color: black;
+}
+.box2 {
+    text-align: end;
+    color: #ffffff;
+    font-size: 10px;
+    border: solid 1px;
+    border-color: black;
+    padding: 3px;
+    width: 60px;
+    background-color: #19B100;
+    position: relative;
+    left: 850px;
+    bottom: 13px;
+}
+.seta-amarela {
+    height: 30px;
+    padding-left: 437px;
+    position: relative;
+    top: 35px;
+}
+.seta-verde {
+    height: 30px;
+    padding-left: 833px;
+}
+footer {
+    padding-top: 90px;
+    position: relative;
+    left: 577px;
+    word-spacing: 30px;
+}
+.comunicator {
+    border: solid 2px #ffffff;
+    position: relative;
+    top: 40px;
+    left: 142px;
+}
+.receptor {
+    border: solid 2px #ffffff;
+    position: relative;
+    top: 28px;
+    right: 1274px;
+}
