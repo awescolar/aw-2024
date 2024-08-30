@@ -1,0 +1,92 @@
+body {
+    background: #1E3980;
+    color: white;
+    font-family: 'Sora';
+    margin: 0;
+}
+
+header {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+.container h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #4CC8FF;
+    margin-bottom: 15px;
+}
+.container p {
+    font-size: 11px;
+    text-align: center;
+    width: 500px;
+    margin-top: 0;
+}
+.container .designer {
+    position: relative;
+    top: 20px;
+    left: -280px;
+}
+.container .designer span{
+    position: relative;
+    top: -45px;
+    left: 15px;
+    font-size: 10px;
+    color: black;
+    background: #FDB32F;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.container .programador {
+    position: relative;
+    top: -110px;
+    left: 280px;
+}
+.container .programador span{
+    position: relative;
+    top: 10px;
+    left: -10px;
+    font-size: 10px;
+    background: #19B100;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.container .designer p {
+    position: absolute;
+    
+}
+.container a {
+    color: white;
+    text-decoration: none;
+    margin-top: 70px;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 60px;
+    border: 2px solid white;
+}
+.plug {
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    background: #1E3980 no-repeat;
+    background-image: url(img/vector.png), url(img/vector-2.png);
+    background-position: center left, center right;
+
+}
+
+footer {}
