@@ -2,12 +2,13 @@ body {
     background: #0F315C;
     color: white;
     font-family: 'Sora';
-    margin: 0;
 }
 
 header {
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 1000px;
 }
 
 .container {
@@ -16,7 +17,7 @@ header {
     flex-direction: column;
     max-width: 600px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .container h1 {
     font-size: 32px;
@@ -34,6 +35,21 @@ header {
     position: relative;
     top: 20px;
     left: -280px;
+    animation-duration: 2s;
+    animation-name: deslizando;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes deslizando {
+    from {
+        left: -300px;
+        top: 30px;
+    }
+    to {
+        top: 0px;
+        left: -260px;
+    }
 }
 .container .designer span{
     position: relative;
@@ -44,11 +60,26 @@ header {
     background: #F5B12C;
     padding: 5px 10px;
     font-weight: 600;
+    border: 2px solid black;
 }
 .container .programador {
     position: relative;
     top: -110px;
     left: 280px;
+    animation-duration: 2s;
+    animation-name: deslizando2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes deslizando2 {
+    from {
+        left: 260px;
+        top: -100px;
+    }
+    to {
+        top: -120px;
+        left: 300px;
+    }
 }
 .container .programador span{
     position: relative;
@@ -58,6 +89,7 @@ header {
     background: #19B303;
     padding: 5px 10px;
     font-weight: 600;
+    border: 2px solid black;
 }
 .container .designer p {
     position: absolute;
@@ -87,4 +119,78 @@ hr {
     background-image: url(imagens/vector.png), url(imagens/vector-2.png);
     background-position: center left, center right;
 
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,
+    #213F8C 50%, #1E3980
+    69.17%, #1B3373 100%);;
+}
+footer section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+footer hr {
+    border: 1px solid #F5B12C;
+    margin-bottom: 60px;
+}
+footer .texto1 span {
+    font-weight: 200;
+}
+footer .texto1 .amarelo {
+    color: #F5B12C;
+}
+footer .texto1 span strong {
+    color: #F5B12C;
+}
+footer .texto1 {
+    max-width: 300px;
+}
+
+footer .informacoes div {
+    display: inline-table;
+    margin-inline-end: 80px;
+    margin-top: 60px;
+    
+}
+
+.email span {
+    font-weight: 100;
+}
+.email p {
+    margin-top: 0;
+}
+.endereco span {
+    font-weight: 100;
+}
+.endereco p {
+margin: 0;
+}
+.midias p {
+    font-weight: 100;
+    margin: 0;
+}
+.midias span {
+    margin-inline-end: 10px;
+    font-size: 30px;
+}
+.midias i {
+    color: #4DCBFE;
+}
+#instagram {
+    color: #F5B12C;
+}
+
+#divisao {
+    border: 1px solid #0F315C;
+    margin-bottom: 0px;
+}
+footer img {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 50px;
 }
