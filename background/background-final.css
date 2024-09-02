@@ -19,6 +19,11 @@ header{
     margin-bottom: 20px;
 }
 
+main .container .Designer{
+    max-width: 1200px;
+    margin: auto;
+}
+
 main .container .Designer p{
     color: black;
     font-size: 10px;
@@ -29,16 +34,17 @@ main .container .Designer p{
     width: 62px;
     padding: 3px;
     position: relative;
-    top: 48px;
-    left: 602px;
+    top: 50px;
+    left: 270px;
 }
 
 main .container .Designer img{
     width: 28px;
     height: 34px;
     position: relative;
-    top: 36px;
-    left: 664px;
+    top: 40px;
+    left: 270px;
+    margin-left: 60px;
 }
 
 main .container h1{
@@ -54,6 +60,12 @@ main .container p{
     font-weight: 300;
 }
 
+main .container .Programador{
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
 main .container .Programador p{
     color: #ffffff;
     font-size: 10px;
@@ -64,16 +76,16 @@ main .container .Programador p{
     width: 86px;
     padding: 3px;
     position: relative;
-    bottom: 20px;
-    left: 1200px;
+    bottom: 16px;
+    left: 830px;
+    margin-left: 20px;
 }
 
 main .container .Programador img{
     width: 28px;
     height: 34px;
     position: relative;
-    top: 0px;
-    left: 1180px;
+    left: 830px;
 }
 
 main .container .link a{
@@ -134,5 +146,27 @@ footer address strong{
     color: #ffffff;
 }
 footer img{
+    margin: auto;
+    display: flex;
     padding-top: 50px;
+}
+.fa-instagram{
+    color: #fdd796;
+}
+.fa-dribbble,
+.fa-behance,
+.fa-github,
+.fa-linkedin-in{
+    color: #4CC8FF;
+}
+.redes i{
+    display: inline;
+    margin-right: 20px;
+    margin-top: 50px;
+    position: relative;
+    top: 15px;
+}
+.endereço{
+    position: relative;
+    top: 20px;
 }
