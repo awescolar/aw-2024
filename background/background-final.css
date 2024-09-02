@@ -4,6 +4,11 @@ body{
     font-family: "Sora", sans-serif;
     background-color: #0F315C;
 }
+.container1{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 header{
     max-width: 1200px;
@@ -25,7 +30,7 @@ main .container .Designer p{
     padding: 3px;
     position: relative;
     top: 48px;
-    left: 336px;
+    left: 602px;
 }
 
 main .container .Designer img{
@@ -33,7 +38,7 @@ main .container .Designer img{
     height: 34px;
     position: relative;
     top: 36px;
-    left: 400px;
+    left: 664px;
 }
 
 main .container h1{
@@ -60,7 +65,7 @@ main .container .Programador p{
     padding: 3px;
     position: relative;
     bottom: 20px;
-    left: 938px;
+    left: 1200px;
 }
 
 main .container .Programador img{
@@ -68,7 +73,7 @@ main .container .Programador img{
     height: 34px;
     position: relative;
     top: 0px;
-    left: 918px;
+    left: 1180px;
 }
 
 main .container .link a{
@@ -104,4 +109,30 @@ main .tomada .plug{
     background-position: center left, center right;
 }
 
-footer{}
+footer{
+    background-color: #213F8C;
+    margin-top: 100px;
+    border-top: 2px solid #FDB32F;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer p{
+    max-width: 33%;
+    color: #ffffff;
+}
+footer p span,
+footer p strong{
+    color: #FDB32F;
+}
+footer address > div{
+    display: inline-block;
+    width: 30%;
+    color: #ffffff;
+}
+footer address strong{
+    display: block;
+    color: #ffffff;
+}
+footer img{
+    padding-top: 50px;
+}
