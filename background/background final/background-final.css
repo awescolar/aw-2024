@@ -103,6 +103,10 @@ header {
     padding: 10px 25px;
     border-radius: 20px;
     font-size: 14px;
+    transition: 0.5s;
+}
+.container a:hover {
+    scale: 1.05;
 }
 
 hr {
