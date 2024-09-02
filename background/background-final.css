@@ -22,10 +22,11 @@ header{
     margin-top: -30px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 
 }
 
-.container{
+main section .container{
     max-width: 600px;
     align-items: center;
     flex-direction: column;
@@ -64,7 +65,7 @@ header{
     position: relative;
 }
 
-p{
+main section div p{
     font-size: 16px;
     text-align: center;
     width: 650px;
@@ -75,7 +76,7 @@ a{
     color: #FFFFFF;
     text-decoration: none;
     margin-top: 60px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFFFFF;  
     padding: 10px 25px;
     border-radius: 20px;
     font-size: 14px;
@@ -91,4 +92,34 @@ h1{
     text-align: center;
     color: #4DCBFE;
     margin-bottom: 15px;
+}
+
+footer{
+    border-top: 2px solid #FDB32F;
+    padding-top: 50px;
+    margin-top: 50px;
+    background: linear-gradient(90deg,#213F8C 60%, #1E3980 69.17%, #1B3373 100%);
+}
+
+footer p{
+    max-width: 33%;
+}
+
+footer section p{
+    margin-left: 100px;
+    max-width: 270px;
+}
+
+footer p span,
+footer p strong{
+    color: #FDB32F;
+}
+footer address strong{
+    display: block;
+}
+
+footer address > div{
+    display: inline-block;
+    width: 20%;
+    margin-left: 100px;
 }
