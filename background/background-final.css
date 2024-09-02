@@ -110,7 +110,75 @@ main section.tomada div.plug{
     background-position: left center, right  center ;
 }
 
-main section.final hr{
-    margin: 5px 0 0 0;
-    border: 1px solid #FDB32F;
-  }
+  footer{
+    border-top: 2px solid #FDB32F;
+    margin-top: 100px;
+    padding-top: 100px;
+    background: linear-gradient(90deg,
+    #213F8C 50%, #1E3980
+    69.17%, #1B3373 100%);
+    padding-bottom: 60px;
+}
+
+footer p{
+    margin-left: 50px;
+    max-width: 20%;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+footer p span, footer p strong{
+    color: #FDB32F;
+}
+
+footer address > div{
+    display: inline-block;
+    width: 20%;
+    margin-left: 100px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+footer address div:first-child{
+    text-align: left;
+}
+
+footer address div:last-child{
+    text-align: right;
+}
+
+footer address strong{
+    display: block;
+    margin: 5px;
+}
+
+footer address{
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer address span{
+    margin-bottom: 4px;
+}
+
+footer address div.redes{
+    margin: 15px;
+    text-align: center;
+}
+
+footer address div.redes i{
+    font-size: 30px;
+    margin: 4px 0 0 10px;
+    display: inline-block;
+}
+
+footer .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer section.container img{
+    margin-left: 780px;
+    margin-top: 30px;
+}
