@@ -5,12 +5,18 @@ body {
     margin: 0;
 }
 
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 header {
     margin-top: 20px;
     margin-left: 100px;
 }
 
-.container {
+main .container{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,13 +24,15 @@ header {
     margin: auto;
     margin-top: 100px;
 }
+
+
 .container h1 {
     font-size: 32px;
     text-align: center;
     color: #4CC8FF;
     margin-bottom: 15px;
 }
-.container p {
+.container main section div p {
     font-size: 11px;
     text-align: center;
     width: 500px;
@@ -89,4 +97,34 @@ hr {
 
 }
 
-footer {}
+footer {
+    border-top: 2px solid #FDB32F;
+    background: linear-gradient(90deg, #213F8C 50%, 
+    #1E3980 69.17% #1B3373 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+footer p{
+    max-width: 33%;
+}
+
+footer section p{
+    margin-left: 100px;
+    max-width: 270px;
+}
+
+footer p span,
+footer p strong{
+    color: #FDB32F;
+}
+footer address > div{
+    display: inline-block;
+    width: 20%;
+    margin-left: 100px;
+}
+footer address strong{
+    display: block;
+}
