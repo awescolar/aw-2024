@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora", sans-serif;
+    background-color: #0F315C;
+    color: #FFF;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** Aplicar agora*/
+header{
+    padding-top: 24px;
+}
+
+/** Aplicar agora*/
+main{}
+main .container{}
+main .container .nome-figma{
+    display: inline-block;
+    padding: .5em 1em;
+    border: 2px solid black;
+    position: relative;
+}
+main .container .nome-figma img{
+    position: absolute;
+}
+main .container .nome-figma.designer{
+    background-color: #FDB32F;
+}
+main .container .nome-figma.designer img{
+    bottom: 0;
+    right: 0;
+}
+main .container .nome-figma.dev{
+    background-color: #19B100;
+}
+main .container .nome-figma.dev img{
+    top: 0;
+    left: 0;
+}
+
+main .container h1{}
+main .container p{}
+main .container a{}
+
+/* formatação da tomada com os fios*/
+main .container .tomada{}
+main .container .tomada .plug{}
+
+/** TRABALHAR DEPOIS */
+footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid #FDB32F;
+    background: linear-gradient(90deg,
+    #213F8C 50%, #1E3980
+    69.17%, #1B3373 100%);
+}
+footer p{
+    max-width: 33%;
+}
+footer p span,
+footer p strong{
+    color: #FDB32F;
+}
+footer address > div{
+    display: inline-block;
+    width: 30%;
+}
+footer address strong{
+    display: block;
+}
