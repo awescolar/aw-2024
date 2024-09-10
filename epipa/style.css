@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /* funções globais*/
-body{}
+body{
+    font-family: "Lato", sans-serif;
+}
 .container-1{max-width: 1200px;}
-.container-2{max-width: 800px;}
+.container-2{max-width: 700px;}
 .container-1, .container-2{
     margin-left: auto;
     margin-right: auto;
@@ -23,3 +26,19 @@ header .section-nav .menu{}
 header .section-nav .menu .item-menu{}
 header .section-nav .menu .item-menu .link{}
 header .section-nav .menu .item-menu .link:hover{}
+
+
+footer{
+    background-color: #203C86;
+
+    display: table;
+    width: 100%;
+}
+
+footer .coluna-1, 
+footer .coluna-2, 
+footer .coluna-3{
+    float: left;
+    width: 300px;
+    border: 1px solid;
+}
