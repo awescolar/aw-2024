@@ -5,107 +5,226 @@ body {
     margin: 0;
 }
 
-/* Logo */
+/* Organização do posicionamento da página */
+.container {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 header {
-    max-width: 1200px;
-    margin: 25px auto;
+    padding-top: 24px;
 }
 
-header img {
-    width: 25%;
-}
-
-/* Página Principal */
-
-.conteiner {
+main .conteúdo {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
+    padding: 50px 0px 0px 0px;
+    position: relative;
 }
 
-.box {
-    padding: 5px 10px;
-    display: inline-block;
+/* Setas do figma */
+main .conteúdo .botão-figma {
+    position: absolute;
+}
+
+main .conteúdo .designer{
+    width: 100px;
+    height: 55px;
+    left: 0;
+    top: 0;
+}
+
+main .conteúdo .designer span {
     font-size: 12px;
     font-weight: 600;
-    border: solid 2px #101010;
-    border-radius: 5px;
+
+    padding: 3px 10px;
+    border: 2px solid #111111;
+    background-color: #FDB32F;
 }
 
-.box-designer {
-    color: #101010;
-    background-color: #fdb32f;
-}
-
-.box-programador {
-    color: #fff;
-    background-color: #19b100;
-    margin-left: 700px;
-}
-
-section h1 {
-    color: #4cc8ff;
-    margin: 0;
-    background-image: url(./img/seta-amarela.png);
-    background-repeat: no-repeat;
-    background-position: 70px 0px;
-    padding-top: 40px;
-    font-size: 42px;
-    text-align: center;
-}
-
-section p {
-    color: #fff;
-    text-align: center;
-    max-width: 650px;
-    font-size: 14px;    
-    margin: 0px auto;
-    padding: 20px 0px 42px 0px;
-    background-image: url(./img/seta-verde.png);
-    background-repeat: no-repeat;
-    background-position: 600px bottom ;
-}
-
-section a {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-    width: 100px; 
-    display: block;
-    border: solid 1px #fff;
-    padding: 10px 25px;
-    margin: 30px auto 0px auto;
-    border-radius: 250px;
-}
-
-.tomada{
-    width: 49%;
-    height: 100px;
-    display:inline-block
-}
-
-.tomada-esquerda {
-    background-image: url(./img/vector.png);
-    background-repeat: no-repeat;
-    background-position: right 34px;
+main .conteúdo .designer img {
     position: absolute;
-    left: 0;
-}
-
-.tomada-esquerda hr{
-    width: 95%;
-}
-
-.tomada-direita {
-    background-image: url(./img/vector-2.png);
-    background-repeat: no-repeat; 
-    background-position: left 34px;
-    position: absolute;
+    bottom: 0;
     right: 0;
 }
 
-.tomada hr {
-    border: solid 2px #fff;
-    margin: 50px 0px;
+main .conteúdo .programador {
+    width: 125px;
+    height: 55px;
+    bottom: 75px;
+    right: 0;
+}
+
+main .conteúdo .programador span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+
+    padding: 3px 10px;
+    border: 2px solid #111111;
+    background-color: #19B100;
+  
+}
+
+main .conteúdo .programador img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Textos Main */
+main .conteúdo h1 {
+    margin: 10px;
+    color: #4CC8FF;
+    font-size: 44px;
+    text-align: center;
+}
+
+main .conteúdo p {
+    max-width: 650px;
+    margin: auto;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 160%;
+}
+
+/* Botão "Saiba Mais" */
+main .conteúdo a {
+    max-width: 140px;
+    margin: 90px auto;
+    padding: 10px 0px;
+
+    display: block;
+    border: solid 1px #fff;
+    border-radius: 25px;
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* plugs */
+main .plug hr{
+    border: 2px solid #fff;
+    margin-top: 120px;
+}
+
+main .plug div {
+    width: 150px;
+    height: 100px;
+    background-color: #0F315C;
+    margin: -60px auto 0px auto;
+    background-image: url(./img/vector-2.png), url(./img/vector.png);
+    background-repeat: no-repeat;
+    background-position: center right, center left;
+}
+
+/* rodapé da página */
+
+footer {
+    width: 100%;
+    margin-top: 200px;
+    padding-top: 50px;
+    border-top: 3px solid #FDB32F;
+    background: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+}
+
+footer .informacoes {
+    height: 300px;
+}
+
+/* Paragrafo de convite */
+footer .informacoes p {
+    width: 420px;
+    line-height: 140%;
+    font-size: 22px;
+    color: #fff;
+
+    margin-bottom: 75px;
+}
+
+footer .informacoes p span{
+    color: #FDB32F;
+}
+
+footer .informacoes p strong{
+    color: #FDB32F;
+}
+
+/* Infomações(Email, Endereço, Midias) */
+/* Geral */
+footer .informacoes article{
+    margin-right: 100px;
+}
+
+footer .informacoes article h6{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+footer .informacoes article p {
+    display: inline;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+footer .informacoes article p span{
+    color: #fff;
+    font-weight: 300;
+}
+
+/* E-mail */
+footer .informacoes .article-1 {
+    float: left;
+}
+
+/* Endereço */
+footer .informacoes .article-2 {
+    float: left;
+}
+
+/* Mídias */
+footer .informacoes .article-3 {
+    float: left;
+}
+
+footer .informacoes .article-3 .redes-sociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .informacoes .article-3 .redes-sociais li {
+    display: inline;
+}
+
+footer .informacoes .article-3 .redes-sociais li .footer-link {
+    color: #4CC8FF;
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+/* Finalização */
+footer .logo {
+    padding: 20px;
+    border-top: 1px solid #244bae;
+}
+
+footer .logo div {
+    text-align: center;
 }
