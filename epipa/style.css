@@ -1,5 +1,10 @@
 /* funções globais*/
-body{}
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+}
 .container-1{max-width: 1200px;}
 .container-2{max-width: 800px;}
 .container-1, .container-2{
@@ -14,12 +19,34 @@ header{
 }
 header .redes-sociais{
     border-bottom: 1px solid #FFFFFF;
+    text-align: right;
 }
 
 header .section-nav{}
-header .section-nav .logo{}
+header .section-nav .logo{
+ 
+}
 
-header .section-nav .menu{}
-header .section-nav .menu .item-menu{}
+header .section-nav .menu{
+    float: right;
+    list-style: none;
+}
+header .section-nav .menu .item-menu{
+    display: inline-block;
+}
 header .section-nav .menu .item-menu .link{}
 header .section-nav .menu .item-menu .link:hover{}
+
+main .galeria{
+    text-align: center;
+}
+main .galeria h2{
+    text-align: left;
+}
+main .galeria figure{
+    display: inline-block;
+    margin: 0;
+    margin-right: 1rem;
+}
+main .galeria img{}
+main .galeria figcaption{}
