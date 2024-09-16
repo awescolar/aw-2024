@@ -1,7 +1,7 @@
 /*funções globais*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body{
-
+    font-family: "Lato", sans-serif;
 }
 .container-1{
     max-width: 1200px;
@@ -21,15 +21,59 @@ header{
 }
 header .redes-sociais{
     border-bottom: 1px solid #FFFFFF;
+    padding: 8px;
+}
+header .container-1{
+    text-align: right;
+    font-size: smaller;
+    font-weight: lighter;
+}
+header .container-1 small{
+    margin-right: 26px;    
+}
+header .container-1 i{
+    margin-left: 16px;
 }
 
-header .section-nav{}
-header .section-nav .logo{}
 
-header .section-nav .menu{}
-header .section-nav .menu .item-menu{}
-header .section-nav .menu .item-menu .link{}
-header .section-nav .menu .item-menu .link:hover{}
+header nav{
+    float: right;
+}
+header .container-nav{
+    margin-top: 6px;
+    
+}
+header .container-nav .logo{
+    margin-left: 250px;
+}
+header .container-nav .menu{
+    position: relative;
+    right: 340px;
+}
+header .container-nav .menu .item-menu{
+    display: inline-block;  
+    margin-right: 36px;  
+}
+header .container-nav .menu .item-menu .link{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    font-weight: lighter;
+}
+header .container-nav .menu .item-menu .link:hover{
+    border-bottom: 3px solid #FFC82C;
+    padding-bottom: 16px;
+}
 
 /*Main*/
-main{}
+main{
+    margin-top: 70px;
+}
+main .noticia .titulo-1{
+    font-size: 44px;
+    position: relative;
+    left: 50px;
+}
+main .noticia .mensagem{
+    text-align: right;
+}
