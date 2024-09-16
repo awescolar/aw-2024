@@ -1,0 +1,7 @@
+.combined-background {
+    height: 600px;
+    background-color: green, orange, black, white;
+    background-position: center;
+    background: url(img/Sapo2.jpg) no-repeat;
+    background-size: 25vh, 25vw;
+}

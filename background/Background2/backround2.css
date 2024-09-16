@@ -1,0 +1,6 @@
+.background-image {
+    height: 400px;
+    background: url(IMG/Sapo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
