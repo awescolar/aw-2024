@@ -8,7 +8,10 @@ __Preparando seu ambiente__
 
 - [ ] Entre na sua branch `git checkout` ```<nome-sua-branch>```
 - [ ] Atualize o seu repositório `git pull`
+<<<<<<< HEAD
 - [ ] Mescle os dados da branch _master_ com a sua branch `git merge master`
+=======
+>>>>>>> 77e542446e447e3c48835aa2f1798216ef785de0
 
 __Realizando a entrega__
 
@@ -26,6 +29,7 @@ __Realizando a entrega__
 ## Tarefas do dia
 Hoje iremos trabalhar com atividades de Background. Após a explicação, proceda com a montagem. Cada atividade foi preparada para demorar de 10 a 20 minutos.
 
+<<<<<<< HEAD
 ### Tarefa 1 - Background 1 (Cores Hexadecimais)
 Realize a montagem do exercício de Background 1 com as instruções abaixo;
 
@@ -43,11 +47,17 @@ Realize a montagem do exercício de Background 1 com as instruções abaixo;
     8. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 1";
     9. Acesse a tarefa no Classroom e __Marque como entregue__.
 
+=======
+>>>>>>> 77e542446e447e3c48835aa2f1798216ef785de0
 
 ### Tarefa 2 - Background 2 (Imagens)
 Realize a montagem do exercício de Background 2 com as instruções abaixo;
 
+<<<<<<< HEAD
 - [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `backround2.html` e um arquivo `background2.css`
+=======
+- [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `background2.html` e um arquivo `background2.css`
+>>>>>>> 77e542446e447e3c48835aa2f1798216ef785de0
 - [ ] Realize a montagem do arquivo conforme descrito abaixo:
     1. Crie um arquivo HTML com uma estrutura básica (não esqueça de adicionar um título que deve ser o mesmo título da atividade);
     2. Adicione um <section> com a classe ```.background-image```;
@@ -84,3 +94,29 @@ Realize a montagem do exercício de Background 2 com as instruções abaixo;
     11. Faça um envio direto na sua branch;
     12. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 3";
     13. Acesse a tarefa no Classroom e __Marque como entregue__.
+<<<<<<< HEAD
+=======
+     
+    
+
+### Atividade 4 - Trabaho de Background
+Realize a montagem da página em anexo na atividade do Google Sala de Aula.
+
+- [ ] Na pasta backgound crie um novo arquivo HTML com a nomenclatura `background-final.html` e um arquivo `background-final.css`
+- [ ] Realize a montagem do arquivo conforme descrito abaixo:
+    1. Crie um arquivo HTML com uma estrutura básica;
+    2. Integre a font Sora, no Google Fonts (todas as fonts utilizadas são Sora);
+    3. Baixe uma nova imagem e salve na pasta "/img" que você criou;
+    4. Realize a montagem conforme se mostra na imagem;
+    5. Utilize o font-awesome para adicionar fonts de imagens (os icones abaixo serão utilizados via Font Awesome);
+    6. ;
+    7. Altere as altura da ```<section>``` para 600px;
+    8. Posicione o background no centro;
+    9. Não permita que a imagem se repita;
+    10. O tamanho ad imagem deve ser 25% do valor da tela;
+
+    11. _Hora de enviar_: Verifique se ta tudo certo antes de tudo;
+    12. Faça um envio direto na sua branch;
+    13. Para esta atividade você deve usar a seguinte mensagem de commit: "Level 2 - Background 3";
+    14. Acesse a tarefa no Classroom e __Marque como entregue__.
+>>>>>>> 77e542446e447e3c48835aa2f1798216ef785de0
