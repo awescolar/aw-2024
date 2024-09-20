@@ -44,11 +44,12 @@ header .container-nav{
     
 }
 header .container-nav .logo{
-    margin-left: 250px;
+    position: relative;
+    left: 160px;
 }
 header .container-nav .menu{
     position: relative;
-    right: 340px;
+    right: 66px;
 }
 header .container-nav .menu .item-menu{
     display: inline-block;  
@@ -58,7 +59,6 @@ header .container-nav .menu .item-menu .link{
     text-decoration: none;
     color: white;
     font-size: smaller;
-    font-weight: lighter;
 }
 header .container-nav .menu .item-menu .link:hover{
     border-bottom: 3px solid #FFC82C;
@@ -75,5 +75,163 @@ main .noticia .titulo-1{
     left: 50px;
 }
 main .noticia .mensagem{
-    text-align: right;
+    position: relative;
+    left: 310px;
+}
+main .noticia .mensagem em{
+    color: #2648A1;
+    font-size: larger;
+}
+main .noticia .mensagem small{
+    position: relative;
+    left: 296px;
+}
+main .noticia p{
+    position: relative;
+    left: 50px;
+}
+section.divisa{
+    padding-top: 50px;
+}
+main .noticia small.curto{
+    position: relative;
+    margin-left: 1px;
+    font-size: small;
+    font-weight: lighter;
+    color: #2648A1;
+}
+main .noticia h2{
+    position: relative;
+    left: 50px;
+    color: #2648A1;
+}
+main .noticia h2 span{
+    border-bottom: 3px solid #FFC82C;
+}
+main .noticia figure.imagem-1{
+    position: relative;
+    left: 400px;
+    margin-right: 90px;
+    bottom: 200px;
+}
+figure.imagem-1 img{
+    height: 400px;
+}
+figcaption.primeiro{
+    margin-top: -4px;
+    margin-left: 40px;
+    margin-right: 300px ;
+    border-bottom: 1px solid #2648A1;
+    border-left: 1px solid #2648A1;
+    border-right: 1px solid #2648A1;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    color: #2648A1;
+}
+main .galeria{
+    margin-top: -70px;
+    text-align: center;
+}
+main .galeria small, .galeria h2{
+    text-align: left;
+    margin-left: 352px;
+    color: #2648A1;
+}
+main .galeria small{
+    position: relative;
+    top: 2px;
+    right: 352px;
+    font-size: small;
+    font-weight: lighter;
+}
+main .galeria figure{
+    display: inline-block;
+    margin-right: -40px;
+    margin-top: 4px;
+}
+main .galeria figure img{
+    height: 230px;
+}
+main .galeria figure figcaption{
+    text-align: left;
+    margin-left: 6px;
+}
+/*footer*/
+footer{
+    background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);  
+    height: 350px;
+    margin-top: 60px;
+}
+footer .coluna-1{
+    margin-top: 36px;
+    float: left;
+    max-width: 33%;
+}
+footer .coluna-1 ul{
+    margin-top: 38px;
+}
+footer .coluna-1 li{
+    max-width: 290px;
+    list-style: none;
+    margin-bottom: 20px;
+    color: white;
+}
+footer .coluna-1 .logos{
+    margin-right: 10px;
+}
+footer .coluna-2{
+    margin-top: 36px;
+    display: inline-block;
+    max-width: 33%;
+    margin-left: 40px;
+}
+footer .coluna-2 ul{
+    display: inline-block;
+}
+footer .coluna-2 li{
+    list-style: none;
+}
+footer .coluna-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    font-weight: lighter;
+}
+footer .coluna-2 .down{
+    margin-left: 38px;
+    margin-top: 30px;
+    color: white;
+    font-weight: lighter;
+}
+footer .coluna-3{
+    max-width: 290px;
+    float: right;
+}
+footer .coluna-3 section.telegram{
+    background-color: white;
+    padding: 20px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+footer .coluna-3 section.telegram a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0D3F82;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 20px;
+}
+footer .coluna-3 section.telegram span{
+    padding-left: 20px;
+}
+footer .coluna-3 section.telegram i{
+    height: 50px;
 }
